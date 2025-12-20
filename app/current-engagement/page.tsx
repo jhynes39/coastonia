@@ -5,7 +5,7 @@ export default function CurrentEngagementPage() {
     <section className="section">
       <h1>Current Engagement</h1>
       <p>
-        Coastonia Technology Services is currently engaged as a <strong>Principal Consultant</strong> with <strong>Congero Technology Group</strong>,
+        Coastonia Technology Services is currently engaged with <strong>Congero Technology Group</strong>,
         supporting the <strong>Embrix cloud-based billing platform</strong>.
       </p>
 
