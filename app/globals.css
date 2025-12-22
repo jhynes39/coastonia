@@ -52,11 +52,62 @@ small { color: var(--muted); }
   gap: 14px;
 }
 
-@media (min-width: 820px) {
-  .grid.cols-3 { grid-template-columns: repeat(3, 1fr); }
-  .grid.cols-2 { grid-template-columns: repeat(2, 1fr); }
+/* --- Mobile improvements --- */
+@media (max-width: 819px) {
+  .container { padding: 0 16px; }
+
+  h1 { font-size: 30px; }
+  h2 { font-size: 22px; }
+  .hero { padding: 34px 0 10px 0; }
+  .hero p { font-size: 15px; }
+
+  .navInner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 12px 0;
+  }
+
+  .navLinks {
+    width: 100%;
+    justify-content: flex-start;
+    gap: 8px;
+  }
+
+  .navLinks a {
+    padding: 10px 12px;      /* bigger tap target */
+    font-size: 14px;
+  }
+
+  .card {
+    padding: 14px;
+    border-radius: 14px;
+  }
+
+  .grid { gap: 12px; }
+
+   
 }
 
+@media (max-width: 819px) {
+  .kv .badge {
+    font-size: 12px;
+    padding: 7px 10px;
+  }
+
+  .ctaRow .button {
+    width: 100%;
+    justify-content: center;
+  }
+}
+.grid.cols-3, .grid.cols-2 {
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 820px) {
+  .grid.cols-2 { grid-template-columns: repeat(2, 1fr); }
+  .grid.cols-3 { grid-template-columns: repeat(3, 1fr); }
+}
 .nav {
   position: sticky;
   top: 0;
