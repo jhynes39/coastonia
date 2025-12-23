@@ -8,7 +8,7 @@ export default function HomePage() {
         <h1>Enterprise Billing, Cloud Platform & DevOps Consulting</h1>
         <p>
           Coastonia Technology Services delivers <strong>enterprise-grade billing platforms</strong>, cloud-native architectures,
-          and DevOps leadership for mission-critical systems. Led by a Group of Consultant with 20+ years of experience across
+          and DevOps leadership for mission-critical systems. Led by a small group of consultant with 20+ years of experience across
           telecommunications, enterprise billing, and cloud platforms.
         </p>
         <p>
@@ -67,7 +67,7 @@ export default function HomePage() {
             </p>
           </div>
           <div className="card">
-            <h3>Embrix <small>(Congero subsidiary)</small></h3>
+            <h3>Embrix</h3>
             <p>
               Architectural and operational support for a cloud-native, microservices-based billing platform hosted on AWS.
             </p>
