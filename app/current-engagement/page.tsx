@@ -6,7 +6,7 @@ export default function CurrentEngagementPage() {
       <h1>Current Engagement</h1>
       <p>
         Coastonia Technology Services is actively supporting <strong>Congero Technology Group</strong>,
-        in the delivery and operation of the <strong>Embrix cloud-based billing platform</strong>.
+        in the delivery and operation of the <strong>cloud-based billing platform</strong>.
       </p>
 
       <div className="grid cols-2">
