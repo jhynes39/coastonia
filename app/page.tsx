@@ -1,9 +1,13 @@
 import Link from "next/link";
+import HeroBackdrop from "./components/HeroBackdrop";
 
 export default function HomePage() {
   return (
     <>
-      <section className="hero">
+      <section className="hero" style={{ position: "relative" }}>
+  <HeroBackdrop />
+  <div style={{ position: "relative" }}>
+    {/* existing hero content stays the same */}
         <span className="badge">Principal Consulting • Cloud-Native Platforms</span>
         <h1>Enterprise Billing, Cloud Platform & DevOps Consulting</h1>
         <p>
@@ -30,13 +34,14 @@ export default function HomePage() {
           <Link className="button" href="/services">View Services</Link>
           <Link className="button" href="/resources">Resources</Link>
         </div>
+    </div>
       </section>
 
       <section className="section">
         <h2>What Coastonia Technology Services Delivers</h2>
         <div className="grid cols-3">
           <div className="card">
-            <h3>Enterprise Billing & Oracle BRM</h3>
+            <h3>💳 Enterprise Billing & Oracle BRM</h3>
             <p>Oracle BRM consulting, modernization, upgrades/migrations, and end-to-end billing enablement.</p>
           </div>
           <div className="card">
