@@ -25,6 +25,13 @@ font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetic
   line-height: 1.55;
 }
 
+.divider {
+  height: 1px;
+  background: var(--border);
+  margin: 22px 0;
+}
+
+
 .buttonPrimary {
   display: inline-flex;
   align-items: center;
