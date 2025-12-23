@@ -36,7 +36,8 @@ export default function HomePage() {
         </div>
     </div>
       </section>
-
+<div className="divider" />
+      
       <section className="section">
         <h2>What Coastonia Technology Services Delivers</h2>
         <div className="grid cols-3">
@@ -54,7 +55,7 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
+<div className="divider" />
       {/* Clients anchor target */}
       <section id="clients" className="section anchorTarget">
         <h2>Selected Clients & Engagements</h2>
@@ -83,7 +84,7 @@ export default function HomePage() {
           <em>Additional client references and engagement details are available upon request.</em>
         </p>
       </section>
-
+<div className="divider" />
       <section className="section">
         <h2>How Coastonia Engages</h2>
         <ul className="list">
