@@ -311,11 +311,62 @@ position: sticky;
 }
 
 @media (max-width: 819px) {
-  .navLinksDesktop { display: none; }
-  .navLinksMobile { display: inline-flex; }
+  * --- Mobile-friendly header --- */
+.navLinksDesktop { display: flex; }
+.navLinksMobile { display: none; }
+
+.navToggle {
+  border: 1px solid var(--border);
+  background: var(--surface, #fff);
+  border-radius: 12px;
+  padding: 10px 12px;
+  cursor: pointer;
+}
+
+.navBurger {
+  display: block;
+  width: 18px;
+  height: 2px;
+  background: rgba(15, 23, 42, 0.85);
+  margin: 4px 0;
+  border-radius: 2px;
+}
+
+.mobileMenu {
+  margin: 10px 0 14px 0;
+  border: 1px solid var(--border);
+  background: var(--surface, #fff);
+  border-radius: 16px;
+  padding: 10px;
+  display: grid;
+  gap: 6px;
+  box-shadow: 0 10px 24px rgba(2, 6, 23, 0.08);
+}
+
+.mobileMenu a {
+  padding: 12px 12px;
+  border-radius: 12px;
+  border: 1px solid transparent;
+  font-size: 15px; /* better for iPhone tap */
+}
+
+.mobileMenu a:hover {
+  border-color: rgba(29, 78, 216, 0.18);
+  background: rgba(29, 78, 216, 0.06);
+}
+
+@media (max-width: 819px) {
+  .navLinksDesktop { display: none; }  /* hide desktop links on iPhone */
+  .navLinksMobile { display: inline-flex; } /* show hamburger */
+
   .navInner {
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
   }
+
   .brand { max-width: calc(100% - 54px); }
+  .brand strong { font-size: 14px; }
+  .brand span { font-size: 12px; }
+}
 }
