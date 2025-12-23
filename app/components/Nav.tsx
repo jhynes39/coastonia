@@ -33,7 +33,7 @@ export default function Nav() {
             <Link href="/services">Services</Link>
             <Link href="/cloud">Cloud</Link>
             <Link href="/current-engagement">Current Engagement</Link>
-            <Link href="/#clients">Clients</Link>
+            {/* <Link href="/#clients">Clients</Link>*/}
             <Link href="/resources">Resources</Link>
             <Link href="/contact">Contact</Link>
           </nav>
@@ -59,7 +59,7 @@ export default function Nav() {
             <Link href="/services" onClick={() => setOpen(false)}>Services</Link>
             <Link href="/cloud" onClick={() => setOpen(false)}>Cloud</Link>
             <Link href="/current-engagement" onClick={() => setOpen(false)}>Current Engagement</Link>
-            <Link href="/#clients" onClick={() => setOpen(false)}>Clients</Link>
+            {/* <Link href="/#clients" onClick={() => setOpen(false)}>Clients</Link>*/}
             <Link href="/resources" onClick={() => setOpen(false)}>Resources</Link>
             <Link href="/contact" onClick={() => setOpen(false)}>Contact</Link>
           </nav>
