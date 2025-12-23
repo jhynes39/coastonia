@@ -30,9 +30,9 @@ export default function HomePage() {
         </div>
 
         <div className="ctaRow">
-          <Link className="button" href="/contact">Contact</Link>
-          <Link className="button" href="/services">View Services</Link>
-          <Link className="button" href="/resources">Resources</Link>
+           <Link className="buttonPrimary" href="/contact">Contact</Link>
+  <Link className="buttonGhost" href="/services">Services</Link>
+  <Link className="buttonGhost" href="/resources">Resources</Link>
         </div>
     </div>
       </section>
