@@ -46,7 +46,7 @@ export default function Footer() {
                 </div>
                 <div>
                   <span>Phone:</span>{" "}
-                  <a href="tel:+17826405669">782-640-5669</a>
+                  <a href="tel:+17826405669">782-640-566</a>
                 </div>
                 <div>
                   <span>Location:</span> Halifax, Canada
