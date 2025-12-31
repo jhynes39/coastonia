@@ -303,7 +303,7 @@ position: sticky;
 }
 
 @media (max-width: 819px) {
-  * --- Mobile-friendly header --- */
+  /* --- Mobile-friendly header --- */
 .navLinksDesktop { display: flex; }
 .navLinksMobile { display: none; }
 
