@@ -211,14 +211,6 @@ position: sticky;
   background: rgba(255,255,255,0.03);
 }
 
-.footer {
- border-top: 1px solid var(--border);
-  padding: 26px 0 44px 0;
-  margin-top: 40px;
-  color: var(--muted);
-  font-size: 13px;
-  background: #fafafa;
-}
 
 .hero {
   padding: 54px 0 18px 0;
@@ -369,4 +361,137 @@ position: sticky;
   .brand strong { font-size: 14px; }
   .brand span { font-size: 12px; }
 }
+}
+
+/* ---------- Footer (Optimi-style layout, corporate clean) ---------- */
+.footerWrap {
+  margin-top: 56px;
+}
+
+.footerCTA {
+  background: radial-gradient(900px 500px at 20% 0%, rgba(29, 78, 216, 0.08), transparent 60%),
+              radial-gradient(900px 500px at 90% 10%, rgba(14, 165, 233, 0.06), transparent 60%),
+              #f8fafc;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  padding: 34px 0;
+}
+
+.footerCTAInner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+.footerCTAText h2 {
+  font-size: 20px;
+  margin: 0 0 6px 0;
+  letter-spacing: -0.01em;
+}
+
+.footerCTAText p {
+  margin: 0;
+  max-width: 80ch;
+  color: var(--muted);
+}
+
+.footerMain {
+  background: #ffffff;
+  padding: 38px 0;
+}
+
+.footerGrid {
+  display: grid;
+  gap: 22px;
+  align-items: start;
+}
+
+@media (min-width: 920px) {
+  .footerGrid {
+    grid-template-columns: 1.6fr 1fr 1fr 1fr 1fr; /* brand + 4 cols */
+  }
+}
+
+.footerBrand {
+  padding-right: 10px;
+}
+
+.footerLogoMark {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: rgba(15, 23, 42, 0.9);
+  background: rgba(29, 78, 216, 0.08);
+  border: 1px solid rgba(29, 78, 216, 0.16);
+  margin-bottom: 10px;
+}
+
+.footerBrandName {
+  font-weight: 700;
+}
+
+.footerBrandTag {
+  font-size: 13px;
+  color: var(--muted);
+  margin-top: 2px;
+}
+
+.footerBrandBody {
+  margin-top: 12px;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.5;
+  max-width: 60ch;
+}
+
+.footerContact {
+  margin-top: 12px;
+  font-size: 13px;
+  color: var(--muted);
+  display: grid;
+  gap: 4px;
+}
+
+.footerContact span {
+  color: rgba(15, 23, 42, 0.7);
+}
+
+.footerCol {
+  display: grid;
+  gap: 8px;
+  font-size: 13px;
+}
+
+.footerColTitle {
+  font-weight: 700;
+  color: rgba(15, 23, 42, 0.9);
+  margin-bottom: 2px;
+}
+
+.footerCol a {
+  color: var(--muted);
+}
+
+.footerCol a:hover {
+  color: var(--brand);
+}
+
+.footerBottom {
+  border-top: 1px solid var(--border);
+  background: #ffffff;
+  padding: 14px 0;
+  color: var(--muted);
+  font-size: 12.5px;
+}
+
+.footerBottomInner {
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
