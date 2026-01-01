@@ -17,22 +17,23 @@ export default function Nav() {
     <header className="nav">
       <div className="container">
         <div className="navInner">
-          <Link href="/" className="brand" onClick={() => setOpen(false)}>
-            <strong>Coastonia Technology Services</strong>
-            <span>Enterprise Billing • Cloud Platforms • DevOps</span>
-          </Link>
-
+<Link href="/" className="brand" onClick={() => setOpen(false)}>
+  <div className="brandMark">CTS</div>
+  <div className="brandText">
+    <strong>Coastonia Technology Services</strong>
+    <span>Enterprise Billing • Cloud Platforms • DevOps</span>
+  </div>
+</Link>
           {/* Desktop */}
-          <nav className="navLinks navLinksDesktop" aria-label="Primary">
-            <Link href="/">Home</Link>
-            <Link href="/services">Services</Link>
-            <Link href="/cloud">Cloud</Link>
-            <Link href="/current-engagement">Current Engagement</Link>
-            <Link href="/#clients">Clients</Link>
-            <Link href="/resources">Resources</Link>
-            <Link href="/contact">Contact</Link>
-          </nav>
-
+<nav className="navLinks navLinksDesktop">
+  <Link href="/">Home</Link>
+  <Link href="/services">Services</Link>
+  <Link href="/cloud">Cloud</Link>
+  <Link href="/current-engagement">Engagement</Link>
+  <Link href="/#clients">Clients</Link>
+  <Link href="/resources">Resources</Link>
+  <Link className="navCTA" href="/contact">Contact</Link>
+</nav>
           {/* Mobile toggle */}
           <button
             className="navToggle navLinksMobile"
