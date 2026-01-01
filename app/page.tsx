@@ -1,16 +1,25 @@
+import Image from "next/image";
+
 import Link from "next/link";
 import HeroBackdrop from "./components/HeroBackdrop";
 
 export default function HomePage() {
   return (
     <>
+
+
+
+
+
       <section className="hero" style={{ position: "relative" }}>
   <HeroBackdrop />
   <div style={{ position: "relative" }}>
     {/* existing hero content stays the same */}
         <span className="badge">Principal Consulting • Cloud-Native Platforms</span>
         <h1>Enterprise Billing, Cloud Platform & DevOps Consulting</h1>
-	<div className="sectionLead">
+	 <div className="introGrid">
+    {/* Text */}
+        <div className="introText">
         	<p>
           	Coastonia Technology Services delivers <strong>enterprise-grade billing platforms</strong>, cloud-native architectures,
           	and DevOps leadership for mission-critical systems. Led by a small group of consultant with 20+ years of experience across
@@ -21,6 +30,24 @@ export default function HomePage() {
           	modernize, and scale platforms that must be reliable, secure, and cost-efficient.
         	</p>
  	</div>
+
+
+  {/* Image */}
+    <div className="introVisual">
+      <Image
+        src="/images/devops-cicd.png"
+        alt="DevOps and CI/CD lifecycle for cloud-native platforms"
+        width={1400}
+        height={800}
+        priority
+      />
+    </div>
+     </div>
+
+
+
+
+
         <div className="kv">
           <span className="badge">Oracle BRM (v6.2–7.5)</span>
           <span className="badge">AWS (EC2 • S3 • RDS)</span>
@@ -37,6 +64,14 @@ export default function HomePage() {
         </div>
     </div>
       </section>
+
+
+
+
+
+
+
+
 <div className="divider" />
       
       <section className="section">

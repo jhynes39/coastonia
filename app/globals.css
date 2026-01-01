@@ -1,3 +1,33 @@
+/* --- Intro section: text + visual --- */
+.introGrid {
+  display: grid;
+  gap: 28px;
+}
+
+@media (min-width: 920px) {
+  .introGrid {
+    grid-template-columns: 1.1fr 0.9fr;
+    align-items: center;
+  }
+}
+
+.introText p {
+  margin-bottom: 14px;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.introVisual img {
+  width: 100%;
+  height: auto;
+  border-radius: 18px;
+  box-shadow: 0 16px 40px rgba(2, 6, 23, 0.12);
+}
+
+
+
+
+
 .sectionLead {
   max-width: 1000px;            /* matches enterprise layouts */
 }
