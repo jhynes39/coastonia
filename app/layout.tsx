@@ -1,7 +1,7 @@
 import "./globals.css";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
-/* import HeaderBand from "./components/HeaderBand";   */
+/* import HeaderBand from "./components/HeaderBand";    */
 
 export const metadata = {
   title: "Coastonia Technology Services",
@@ -14,7 +14,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <body>
         <Nav />
-        <HeaderBand />
+/*        <HeaderBand />   */
         <main className="container">{children}</main>
         <Footer />
       </body>
