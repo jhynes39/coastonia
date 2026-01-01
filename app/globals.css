@@ -1,3 +1,12 @@
+.sectionLead {
+  max-width: none;              /* remove narrow constraint */
+}
+
+.sectionLead p {
+  max-width: none;
+}
+
+
 @media (max-width: 819px) {
   .brandText span {
     display: none; /* hide tagline on mobile */

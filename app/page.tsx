@@ -10,16 +10,17 @@ export default function HomePage() {
     {/* existing hero content stays the same */}
         <span className="badge">Principal Consulting • Cloud-Native Platforms</span>
         <h1>Enterprise Billing, Cloud Platform & DevOps Consulting</h1>
-        <p>
-          Coastonia Technology Services delivers <strong>enterprise-grade billing platforms</strong>, cloud-native architectures,
-          and DevOps leadership for mission-critical systems. Led by a small group of consultant with 20+ years of experience across
-          telecommunications, enterprise billing, and cloud platforms.
-        </p>
-        <p>
-          From <strong>Oracle BRM</strong> to <strong>AWS-hosted microservices</strong>, Coastonia helps clients design, operate,
-          modernize, and scale platforms that must be reliable, secure, and cost-efficient.
-        </p>
-
+	<div className="sectionLead">
+        	<p>
+          	Coastonia Technology Services delivers <strong>enterprise-grade billing platforms</strong>, cloud-native architectures,
+          	and DevOps leadership for mission-critical systems. Led by a small group of consultant with 20+ years of experience across
+          	telecommunications, enterprise billing, and cloud platforms.
+        	</p>
+        	<p>
+          	From <strong>Oracle BRM</strong> to <strong>AWS-hosted microservices</strong>, Coastonia helps clients design, operate,
+          	modernize, and scale platforms that must be reliable, secure, and cost-efficient.
+        	</p>
+ 	</div>
         <div className="kv">
           <span className="badge">Oracle BRM (v6.2–7.5)</span>
           <span className="badge">AWS (EC2 • S3 • RDS)</span>
