@@ -830,3 +830,73 @@ small { color: var(--muted); }
 .ctsFooterBottomInner{
   text-align: center;
 }
+
+
+
+/* --- Forms --- */
+.form { display: grid; gap: 14px; }
+
+.formRow {
+  display: grid;
+  gap: 12px;
+}
+
+@media (min-width: 820px) {
+  .formRow { grid-template-columns: 1fr 1fr; }
+}
+
+.formField label {
+  display: block;
+  font-size: 13px;
+  color: rgba(15, 23, 42, 0.8);
+  margin-bottom: 6px;
+}
+
+.formField input,
+.formField textarea {
+  width: 100%;
+  padding: 11px 12px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  font-size: 14px;
+  outline: none;
+}
+
+.formField input:focus,
+.formField textarea:focus {
+  border-color: rgba(29, 78, 216, 0.35);
+  box-shadow: 0 0 0 4px rgba(29, 78, 216, 0.10);
+}
+
+.formSuccess {
+  border: 1px solid rgba(34, 197, 94, 0.25);
+  background: rgba(34, 197, 94, 0.08);
+  padding: 10px 12px;
+  border-radius: 12px;
+  font-size: 14px;
+}
+
+.formError {
+  border: 1px solid rgba(239, 68, 68, 0.25);
+  background: rgba(239, 68, 68, 0.08);
+  padding: 10px 12px;
+  border-radius: 12px;
+  font-size: 14px;
+}
+
+.formNote {
+  margin: 0;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+/* Honeypot hidden field */
+.hp {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
