@@ -75,10 +75,30 @@ Coastonia Technology Services provides secure, reliable, and repeatable DevOps s
     </div>
 
 <div className="introText">
- <p>
-                From <strong>Oracle BRM</strong> to <strong>AWS-hosted microservices</strong>, Coastonia helps clients design, operate,
-                modernize, and scale platforms that must be reliable, secure, and cost-efficient.
-                </p>
+
+<h2>Billing & Revenue Management</strong></h2>
+
+<p>
+  Coastonia Technology Services brings deep hands-on experience with enterprise billing platforms, including extensive work in <strong>Oracle Billing and Revenue Management (BRM)</strong>.
+  Our approach remains platform-agnostic, allowing us to adapt solutions to existing systems or guide clients through modernization and migration initiatives.
+</p>
+
+
+  <ul>
+  <li><strong>Billing Platform Architecture</strong> – Design and optimization of scalable billing and revenue management systems.</li>
+  <li><strong>Rating & Charging Models</strong> – Support for usage-based, subscription, prepaid, postpaid, and hybrid billing models.</li>
+  <li><strong>Product & Pricing Configuration</strong> – Implementation of complex pricing rules, discounts, bundles, and promotions.</li>
+  <li><strong>Invoice & Revenue Lifecycle Management</strong> – End-to-end billing cycles including invoicing, adjustments, credits, and revenue controls.</li>
+  <li><strong>Financial & System Integrations</strong> – Integration with payment gateways, tax engines, ERP, and downstream financial systems.</li>
+  <li><strong>Billing Operations & Support</strong> – Production support, incident resolution, performance tuning, and operational improvements.</li>
+</ul>
+
+
+
+
+
+
+
  </div>
    </div>
 
