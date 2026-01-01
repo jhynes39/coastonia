@@ -81,9 +81,9 @@ export default function Footer() {
             <div className="footerCol">
               <div className="footerColTitle">Legal</div>
               {/* These can become real pages later */}
-              <a href="#" onClick={(e) => e.preventDefault()}>Privacy Policy</a>
-              <a href="#" onClick={(e) => e.preventDefault()}>Terms of Use</a>
-              <a href="#" onClick={(e) => e.preventDefault()}>Security</a>
+	      <Link href="/privacy">Privacy Policy</Link>
+<Link href="/terms">Terms of Use</Link>
+<Link href="/security">Security</Link>
             </div>
           </div>
         </div>
