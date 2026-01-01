@@ -54,7 +54,8 @@
   }
 
   .brandLogo img {
-    height: 36px;
+    height: 42px;
+    width: auto;
   }
 }
 
@@ -366,7 +367,7 @@ small { color: var(--muted); }
   display: grid;
   grid-template-columns: auto 1fr auto;
   align-items: center;
-  padding: 14px 0;
+  padding: 16px 0;
 }
 
 .brand {
