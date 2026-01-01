@@ -514,3 +514,156 @@ position: sticky;
   justify-content: center;
   text-align: center;
 }
+
+
+
+/* =======================
+   Coastonia Footer (Clean)
+   ======================= */
+.ctsFooter { margin-top: 56px; }
+
+/* CTA band */
+.ctsFooterCta{
+  background:
+    radial-gradient(900px 420px at 50% 0%, rgba(14,165,233,0.16), transparent 65%),
+    linear-gradient(180deg, rgba(14,165,233,0.10), rgba(255,255,255,0));
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  padding: 34px 0;
+}
+
+.ctsFooterCtaInner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+.ctsFooterCtaTitle{
+  margin: 0 0 6px 0;
+  font-size: 20px;
+  letter-spacing: -0.01em;
+}
+
+.ctsFooterCtaSub{
+  margin: 0;
+  color: var(--muted);
+  max-width: 80ch;
+}
+
+/* CTA Button (fixes your dark block issue) */
+.ctsFooterCtaButton{
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 11px 18px;
+  border-radius: 12px;
+  background: linear-gradient(180deg, #0ea5e9, #0284c7);
+  color: #fff;
+  font-weight: 700;
+  font-size: 13px;
+  border: 1px solid rgba(2,132,199,0.35);
+  box-shadow: 0 10px 22px rgba(2, 132, 199, 0.18);
+  white-space: nowrap;
+}
+
+.ctsFooterCtaButton:hover{ filter: brightness(1.03); }
+
+/* Main */
+.ctsFooterMain{
+  background:
+    linear-gradient(180deg, #f8fafc, #eef2f7);
+  padding: 38px 0;
+}
+
+.ctsFooterGrid{
+  display: grid;
+  gap: 22px;
+  align-items: start;
+}
+
+/* Desktop columns */
+@media (min-width: 980px){
+  .ctsFooterGrid{
+    grid-template-columns: 1.6fr 1fr 1fr 1fr 1fr;
+  }
+}
+
+/* Brand block */
+.ctsFooterMark{
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+  font-weight: 800;
+  color: var(--brand);
+  background: rgba(29,78,216,0.08);
+  border: 1px solid rgba(29,78,216,0.18);
+  margin-bottom: 10px;
+}
+
+.ctsFooterBrandName{ font-weight: 800; color: var(--text); }
+.ctsFooterBrandTag{ font-size: 13px; color: var(--muted); margin-top: 2px; }
+
+.ctsFooterBrandBody{
+  margin: 12px 0 0 0;
+  color: var(--muted);
+  font-size: 13px;
+  max-width: 62ch;
+}
+
+/* Contact block */
+.ctsFooterContact{
+  margin-top: 12px;
+  display: grid;
+  gap: 6px;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.ctsFooterContact a{
+  color: #1e293b;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* Columns (fixes your “run-together” links) */
+.ctsFooterCol{
+  display: grid;
+  gap: 10px;
+  font-size: 13px;
+}
+
+.ctsFooterColTitle{
+  font-weight: 800;
+  color: var(--text);
+  margin-bottom: 2px;
+}
+
+/* Force each link to be its own line */
+.ctsFooterCol a{
+  display: block;
+  color: #1e293b;
+  line-height: 1.2;
+}
+
+.ctsFooterCol a:hover{
+  color: var(--brand);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* Bottom bar */
+.ctsFooterBottom{
+  border-top: 1px solid var(--border);
+  background: #ffffff;
+  padding: 14px 0;
+  color: var(--muted);
+  font-size: 12.5px;
+}
+
+.ctsFooterBottomInner{
+  text-align: center;
+}
