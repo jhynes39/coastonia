@@ -29,6 +29,12 @@
   border-color: rgba(29, 78, 216, 0.4);
 }
 
+.navLinksDesktop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
 
 .navLinksDesktop a {
   font-size: 13px;
@@ -297,19 +303,20 @@ small { color: var(--muted); }
 }
 
 
-
 .nav {
   position: sticky;
   top: 0;
   z-index: 50;
   background: var(--surface);
   border-bottom: 1px solid var(--border);
+  box-shadow: 0 4px 10px rgba(2, 6, 23, 0.06);
 }
 
+
 .navInner {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
   align-items: center;
-  justify-content: space-between;
   padding: 14px 0;
 }
 
