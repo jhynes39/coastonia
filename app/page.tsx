@@ -26,22 +26,22 @@ export default function HomePage() {
 <h2>DevOps & Release Engineering Services</h2>
 
 <p>
-Coastonia Technology Services provides secure, reliable, and repeatable DevOps solutions that enable organizations to deploy and operate cloud-based applications with confidence.
+Coastonia Technology Services provides secure, reliable, and repeatable DevOps solutions that enable organizations to deploy and operate cloud-based applications with confidence.</p>
 
-Our DevOps capabilities include:
+<p>Our DevOps capabilities include:</p>
+<ul>
+<li><strong>Secure secrets management</strong> using encrypted Vault services and enterprise security best practices.</li>
 
-<strong>Secure secrets management</strong> using encrypted Vault services and enterprise security best practices
+<li><strong>Environment initialization and database bootstrapping</strong>, including release-aligned baseline execution.</li>
 
-<strong>Environment initialization and database bootstrapping</strong>, including release-aligned baseline execution
+<li><strong>Centralized application configuration management</strong> across databases and secure vaults.</li>
 
-<strong>Centralized application configuration management</strong> across databases and secure vaults
+<li><strong>CI/CD pipeline configuration and optimization</strong> for controlled, branch-based deployments.</li>
 
-<strong>CI/CD pipeline configuration and optimization</strong> for controlled, branch-based deployments
+<li><strong>Kubernetes deployment automation</strong>, including namespace targeting and environment validation.</li>
 
-<strong>Kubernetes deployment automation</strong>, including namespace targeting and environment validation
-
-<strong>Deployment readiness reviews</strong> to ensure consistency across development, staging, and production environments
-</p>
+<li><strong>Deployment readiness reviews</strong> to ensure consistency across development, staging, and production environments.</li>
+</ul>
 
 
 
