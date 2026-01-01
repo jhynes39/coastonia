@@ -76,7 +76,7 @@ Coastonia Technology Services provides secure, reliable, and repeatable DevOps s
 
 <div className="introText">
 
-<h2>Billing & Revenue Management</strong></h2>
+<h2>Billing & Revenue Management</h2>
 
 <p>
   Coastonia Technology Services brings deep hands-on experience with enterprise billing platforms, including extensive work in <strong>Oracle Billing and Revenue Management (BRM)</strong>.
