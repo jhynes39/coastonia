@@ -304,6 +304,7 @@ small { color: var(--muted); }
   z-index: 50;
   background: var(--surface);
   border-bottom: 1px solid var(--border);
+}
 
 .navInner {
   display: flex;
