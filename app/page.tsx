@@ -28,22 +28,6 @@ export default function HomePage() {
 <p>
 Coastonia Technology Services provides secure, reliable, and repeatable DevOps solutions that enable organizations to deploy and operate cloud-based applications with confidence.</p>
 
-<p>Our DevOps capabilities include:</p>
-<ul>
-<li><strong>Secure secrets management</strong> using encrypted Vault services and enterprise security best practices.</li>
-
-<li><strong>Environment initialization and database bootstrapping</strong>, including release-aligned baseline execution.</li>
-
-<li><strong>Centralized application configuration management</strong> across databases and secure vaults.</li>
-
-<li><strong>CI/CD pipeline configuration and optimization</strong> for controlled, branch-based deployments.</li>
-
-<li><strong>Kubernetes deployment automation</strong>, including namespace targeting and environment validation.</li>
-
-<li><strong>Deployment readiness reviews</strong> to ensure consistency across development, staging, and production environments.</li>
-</ul>
-
-
 
 
 	
@@ -82,16 +66,6 @@ Coastonia Technology Services provides secure, reliable, and repeatable DevOps s
   Coastonia Technology Services brings deep hands-on experience with enterprise billing platforms, including extensive work in <strong>Oracle Billing and Revenue Management (BRM)</strong>.
   Our approach remains platform-agnostic, allowing us to adapt solutions to existing systems or guide clients through modernization and migration initiatives.
 </p>
-
-
-  <ul>
-  <li><strong>Billing Platform Architecture</strong> – Design and optimization of scalable billing and revenue management systems.</li>
-  <li><strong>Rating & Charging Models</strong> – Support for usage-based, subscription, prepaid, postpaid, and hybrid billing models.</li>
-  <li><strong>Product & Pricing Configuration</strong> – Implementation of complex pricing rules, discounts, bundles, and promotions.</li>
-  <li><strong>Invoice & Revenue Lifecycle Management</strong> – End-to-end billing cycles including invoicing, adjustments, credits, and revenue controls.</li>
-  <li><strong>Financial & System Integrations</strong> – Integration with payment gateways, tax engines, ERP, and downstream financial systems.</li>
-  <li><strong>Billing Operations & Support</strong> – Production support, incident resolution, performance tuning, and operational improvements.</li>
-</ul>
 
 
 
