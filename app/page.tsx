@@ -12,10 +12,12 @@ export default function HomePage() {
 
 
       <section className="hero" style={{ position: "relative" }}>
-  <HeroBackdrop />
+
+    
+    
+      <HeroBackdrop />
   <div style={{ position: "relative" }}>
     {/* existing hero content stays the same */}
-        <span className="badge">Principal Consulting • Cloud-Native Platforms</span>
         <h1>Enterprise Billing, Cloud Platform & DevOps Consulting</h1>
 	 <div className="introGrid">
     {/* Text */}
@@ -69,34 +71,9 @@ Coastonia Technology Services provides secure, reliable, and repeatable DevOps s
 
 
 
-
-
-
-
  </div>
    </div>
 
-
-
-
-
-
-
-
-        <div className="kv">
-          <span className="badge">Oracle BRM (v6.2–7.5)</span>
-          <span className="badge">AWS (EC2 • S3 • RDS)</span>
-          <span className="badge">Kubernetes (kubectl)</span>
-          <span className="badge">GitLab CI/CD</span>
-          <span className="badge">PostgreSQL (RDS)</span>
-          <span className="badge">Vault • Redis</span>
-        </div>
-
-        <div className="ctaRow">
-           <Link className="buttonPrimary" href="/contact">Contact</Link>
-  <Link className="buttonGhost" href="/services">Services</Link>
-  <Link className="buttonGhost" href="/resources">Resources</Link>
-        </div>
     </div>
       </section>
 
