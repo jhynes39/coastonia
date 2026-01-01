@@ -25,10 +25,6 @@ export default function HomePage() {
           	and DevOps leadership for mission-critical systems. Led by a small group of consultant with 20+ years of experience across
           	telecommunications, enterprise billing, and cloud platforms.
         	</p>
-        	<p>
-          	From <strong>Oracle BRM</strong> to <strong>AWS-hosted microservices</strong>, Coastonia helps clients design, operate,
-          	modernize, and scale platforms that must be reliable, secure, and cost-efficient.
-        	</p>
  	</div>
 
 
@@ -42,7 +38,30 @@ export default function HomePage() {
         priority
       />
     </div>
-     </div>
+
+
+
+ {/* Image */}
+    <div className="introVisual">
+      <Image
+        src="/images/billing-rev-man.png"
+        alt="Billing and Revenue Management"
+        width={1400}
+        height={800}
+        priority
+      />
+    </div>
+
+<div className="introText">
+ <p>
+                From <strong>Oracle BRM</strong> to <strong>AWS-hosted microservices</strong>, Coastonia helps clients design, operate,
+                modernize, and scale platforms that must be reliable, secure, and cost-efficient.
+                </p>
+ </div>
+   </div>
+
+
+
 
 
 
