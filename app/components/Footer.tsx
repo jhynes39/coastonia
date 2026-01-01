@@ -31,14 +31,23 @@ export default function Footer() {
 
           {/* Brand */}
           <div className="ctsFooterBrand">
+
+<div className="footerLogo">
+  <Image
+    src="/images/coastonia-logo.png"
+    alt="Coastonia Technology Services"
+    width={320}
+    height={96}
+    style={{ height: "58px", width: "auto" }}  // ✅ prevents wide stretch
+  />
+</div>
+
+
+
             <div className="ctsFooterMark">
 
-<Image
-  src="/images/coastonia-logo.png"
-  alt="Coastonia Technology Services"
-  width={260}
-  height={78}
-/>
+
+
 
 
  	    </div>

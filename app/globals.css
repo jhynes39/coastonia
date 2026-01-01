@@ -8,6 +8,20 @@
   width: auto;
 }
 
+.brandLogo img {
+  display: block;
+  height: 56px;
+  width: auto !important;
+}
+
+.footerLogo img {
+  display: block;
+  height: 58px;
+  width: auto !important;
+  max-width: 240px;   /* prevents huge horizontal logos */
+}
+
+
 
 /* --- Intro section: text + visual --- */
 .introGrid {
@@ -55,7 +69,6 @@
 
   .brandLogo img {
     height: 42px;
-    width: auto;
   }
 }
 

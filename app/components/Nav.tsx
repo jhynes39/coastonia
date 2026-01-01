@@ -30,9 +30,10 @@ export default function Nav() {
     <Image
       src="/images/coastonia-logo.png"
       alt="Coastonia Technology Services"
-      width={220}
-      height={64}
+      width={260}
+      height={80}
       priority
+      style={{ height: "56px", width: "auto" }}   // ✅ forces visible size
     />
   </div>
   <div className="brandText">
@@ -40,7 +41,6 @@ export default function Nav() {
     <span>Enterprise Billing • Cloud Platforms • DevOps</span>
   </div>
 </Link>
-
 
 
 
