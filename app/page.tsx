@@ -20,11 +20,33 @@ export default function HomePage() {
 	 <div className="introGrid">
     {/* Text */}
         <div className="introText">
-        	<p>
-          	Coastonia Technology Services delivers <strong>enterprise-grade billing platforms</strong>, cloud-native architectures,
-          	and DevOps leadership for mission-critical systems. Led by a small group of consultant with 20+ years of experience across
-          	telecommunications, enterprise billing, and cloud platforms.
-        	</p>
+
+
+
+<H2>DevOps & Release Engineering Services</>
+
+<p>
+Coastonia Technology Services provides secure, reliable, and repeatable DevOps solutions that enable organizations to deploy and operate cloud-based applications with confidence.
+
+Our DevOps capabilities include:
+
+<strong>Secure secrets management</strong> using encrypted Vault services and enterprise security best practices
+
+<strong>Environment initialization and database bootstrapping</strong>, including release-aligned baseline execution
+
+<strong>Centralized application configuration management</strong> across databases and secure vaults
+
+<strong>CI/CD pipeline configuration and optimization</strong> for controlled, branch-based deployments
+
+<strong>Kubernetes deployment automation</strong>, including namespace targeting and environment validation
+
+<strong>Deployment readiness reviews</strong> to ensure consistency across development, staging, and production environments
+</p>
+
+
+
+
+	
  	</div>
 
 
