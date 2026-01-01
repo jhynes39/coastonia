@@ -1,11 +1,10 @@
 .sectionLead {
-  max-width: none;              /* remove narrow constraint */
+  max-width: 1000px;            /* matches enterprise layouts */
 }
 
 .sectionLead p {
-  max-width: none;
+  max-width: 1000px;
 }
-
 
 @media (max-width: 819px) {
   .brandText span {
