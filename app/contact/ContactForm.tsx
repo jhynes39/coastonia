@@ -119,9 +119,6 @@ export default function ContactForm() {
           {status === "loading" ? "Sending..." : "Send Message"}
         </button>
 
-        <p className="formNote">
-          Prefer email? <a href="mailto:jhynes@coastonia.com">jhynes@coastonia.com</a>
-        </p>
       </form>
     </div>
   );
