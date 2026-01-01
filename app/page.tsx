@@ -23,7 +23,7 @@ export default function HomePage() {
 
 
 
-<H2>DevOps & Release Engineering Services</>
+<H2>DevOps & Release Engineering Services</H2>
 
 <p>
 Coastonia Technology Services provides secure, reliable, and repeatable DevOps solutions that enable organizations to deploy and operate cloud-based applications with confidence.
