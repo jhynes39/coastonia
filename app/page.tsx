@@ -31,7 +31,7 @@ export default function HomePage() {
   {/* Image */}
     <div className="introVisual">
       <Image
-        src="/images/devops-cicd.png"
+        src="/images/devops-cicd-transparent.png"
         alt="DevOps and CI/CD lifecycle for cloud-native platforms"
         width={1400}
         height={800}
@@ -44,7 +44,7 @@ export default function HomePage() {
  {/* Image */}
     <div className="introVisual">
       <Image
-        src="/images/billing-rev-man.png"
+        src="/images/billing-rev-man-transparent.png"
         alt="Billing and Revenue Management"
         width={1400}
         height={800}
