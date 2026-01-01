@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
@@ -17,13 +18,35 @@ export default function Nav() {
     <header className="nav">
       <div className="container">
         <div className="navInner">
+
+
+
+
+
+
+
 <Link href="/" className="brand" onClick={() => setOpen(false)}>
-  <div className="brandMark">CTS</div>
+  <div className="brandLogo">
+    <Image
+      src="/images/coastonia-logo.png"
+      alt="Coastonia Technology Services"
+      width={160}
+      height={48}
+      priority
+    />
+  </div>
   <div className="brandText">
     <strong>Coastonia Technology Services</strong>
     <span>Enterprise Billing • Cloud Platforms • DevOps</span>
   </div>
 </Link>
+
+
+
+
+
+
+
           {/* Desktop */}
 <nav className="navLinks navLinksDesktop">
   <Link href="/">Home</Link>

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const year = new Date().getFullYear();
 
@@ -24,23 +25,23 @@ export default function Footer() {
       {/* Main footer */}
       <section className="ctsFooterMain">
         <div className="container ctsFooterGrid">
+
+
+
+
           {/* Brand */}
           <div className="ctsFooterBrand">
-            <div className="ctsFooterMark">CTS</div>
+            <div className="ctsFooterMark">
+	      <Image src="/images/coastonia-logo.png" alt="Coastonia Technology Services" width={180} height={54} />
+ 	    </div>
+	    
             <div className="ctsFooterBrandName">Coastonia Technology Services</div>
             <div className="ctsFooterBrandTag">Enterprise Billing • Cloud Platforms • DevOps</div>
 
-            <p className="ctsFooterBrandBody">
-              Consulting focused on AWS-hosted microservices platforms, DevOps governance, and Oracle BRM expertise —
-              delivered with hands-on technical ownership.
-            </p>
-
-            <div className="ctsFooterContact">
-              <div><strong>Email:</strong> <a href="mailto:jhynes@coastonia.com">jhynes@coastonia.com</a></div>
-              <div><strong>Phone:</strong> <a href="tel:+17826405669">782-640-5669</a></div>
-              <div><strong>Location:</strong> Halifax, Canada</div>
-            </div>
           </div>
+
+
+
 
           {/* Columns */}
           <nav className="ctsFooterCol" aria-label="Platform">

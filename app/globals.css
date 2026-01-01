@@ -1,3 +1,14 @@
+.brandLogo {
+  display: flex;
+  align-items: center;
+}
+
+.brandLogo img {
+  height: 40px;
+  width: auto;
+}
+
+
 /* --- Intro section: text + visual --- */
 .introGrid {
   display: grid;
@@ -37,12 +48,12 @@
 }
 
 @media (max-width: 819px) {
-  .brandText span {
-    display: none; /* hide tagline on mobile */
+
+ .brandText {
+    display: none;
   }
 
-  .brandMark {
-    width: 36px;
+  .brandLogo img {
     height: 36px;
   }
 }
