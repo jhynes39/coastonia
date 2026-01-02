@@ -32,7 +32,7 @@ export default function Nav() {
     fill
     priority
     style={{ objectFit: "contain" }}
-      sizes="200px"
+      sizes="300px"
   />
  </span>
 </Link>

@@ -1,7 +1,7 @@
 .brandLogo {
   position: relative;
   height: 44px;              /* ✅ logo height */
-  width: 200px;              /* ✅ logo width */
+  width: 300px;              /* ✅ logo width */
   display: block;
 }
 
