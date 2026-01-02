@@ -1,3 +1,83 @@
+.siteHeader {
+  border-bottom: 1px solid #e5e7eb;
+  background: #ffffff;
+}
+
+.headerInner {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 64px;
+  padding: 0 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brandLogo {
+  position: relative;
+  height: 36px;
+  width: 220px;
+}
+
+/* Desktop nav */
+.navLinks {
+  display: flex;
+  gap: 24px;
+}
+
+.navLinks a {
+  font-size: 14px;
+  font-weight: 500;
+  color: #1f2937;
+  text-decoration: none;
+}
+
+.navLinks a:hover {
+  text-decoration: underline;
+}
+
+/* Mobile */
+.menuToggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.mobileNav {
+  display: none;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .navLinks {
+    display: none;
+  }
+
+  .menuToggle {
+    display: block;
+  }
+
+  .mobileNav {
+    display: flex;
+    flex-direction: column;
+    padding: 12px 20px;
+    gap: 12px;
+    border-top: 1px solid #e5e7eb;
+    background: #ffffff;
+  }
+
+  .mobileNav a {
+    text-decoration: none;
+    color: #1f2937;
+    font-size: 14px;
+  }
+}
+
+
+
 .brandLogo {
   position: relative;
   height: 44px;              /* ✅ logo height */
