@@ -16,8 +16,6 @@ export default function Nav() {
             <Image
               src="/images/coastonia-logo.png"
               alt="Coastonia Technology Services"
-	       width={300}
-        	height={200}
               priority
             />
           </div>
