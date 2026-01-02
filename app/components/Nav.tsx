@@ -9,16 +9,15 @@ export default function Nav() {
 
   return (
     <header className="siteHeader">
-      <div className="headerInner">
         {/* Logo */}
         <Link href="/" className="brand" onClick={() => setOpen(false)}>
           <div className="brandLogo">
             <Image
               src="/images/coastonia-logo.png"
               alt="Coastonia Technology Services"
-              fill
+	       width={300}
+        	height={200}
               priority
-              style={{ objectFit: "contain" }}
             />
           </div>
         </Link>
@@ -40,7 +39,6 @@ export default function Nav() {
         >
           ☰
         </button>
-      </div>
 
       {/* Mobile menu */}
       {open && (
