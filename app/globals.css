@@ -113,7 +113,7 @@
 
 .navLinksDesktop a {
 font-family: var(--font-nunito), ui-sans-serif, system-ui, -apple-system;
-  font-weight: 600;
+  font-weight: 800;
   letter-spacing: 0.02em;
 }
 
@@ -388,7 +388,7 @@ small { color: var(--muted); }
 
 .navInner {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto 1fr auto;
   align-items: center;
   padding: 16px 0;
 }
@@ -438,7 +438,7 @@ small { color: var(--muted); }
   justify-content: flex-end;
 }
 .navLinks a {
-  font-size: 13px;
+  font-size: 15px;
   padding: 8px 10px;
   border-radius: 999px;
   border: 1px solid transparent;
