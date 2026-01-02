@@ -36,7 +36,7 @@ export default function Footer() {
 
 <div className="footerLogo">
   <Image
-    src="/images/coastonia-logo-transparent.png"
+    src="/images/coastonia-logo.png"
     alt="Coastonia Technology Services"
     fill
     style={{ objectFit: "contain" }}
