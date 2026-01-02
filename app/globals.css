@@ -1,13 +1,17 @@
-
 .brandLogo {
+  position: relative;
+  height: 72px;        /* 🔥 MAKE IT BIG */
+  width: 260px;        /* controls horizontal presence */
   display: flex;
   align-items: center;
 }
 
 .brandLogo img {
-  height: 40px;
-  width: auto;
+  width: 100% !important;
+  height: 100% !important;
 }
+
+
 
 .brandLogo img {
   display: block;
@@ -15,13 +19,16 @@
   width: auto !important;
 }
 
-.footerLogo img {
-  display: block;
-  height: 58px;
-  width: auto !important;
-  max-width: 240px;   /* prevents huge horizontal logos */
+.footerLogo {
+  position: relative;
+  height: 64px;
+  width: 240px;
 }
 
+.footerLogo img {
+  width: 100% !important;
+  height: 100% !important;
+}
 
 
 /* --- Intro section: text + visual --- */
@@ -63,6 +70,10 @@
 }
 
 @media (max-width: 819px) {
+ .brandLogo {
+    height: 48px;
+    width: 180px;
+}
 
  .brandText {
     display: none;

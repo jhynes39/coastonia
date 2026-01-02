@@ -32,25 +32,18 @@ export default function Footer() {
           {/* Brand */}
           <div className="ctsFooterBrand">
 
+
+
 <div className="footerLogo">
   <Image
-    src="/images/coastonia-logo.png"
+    src="/images/coastonia-logo-transparent.png"
     alt="Coastonia Technology Services"
-    width={320}
-    height={96}
-    style={{ height: "58px", width: "auto" }}  // ✅ prevents wide stretch
+    fill
+    style={{ objectFit: "contain" }}
   />
 </div>
 
 
-
-            <div className="ctsFooterMark">
-
-
-
-
-
- 	    </div>
 	    
             <div className="ctsFooterBrandName">Coastonia Technology Services</div>
             <div className="ctsFooterBrandTag">Enterprise Billing • Cloud Platforms • DevOps</div>

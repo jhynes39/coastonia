@@ -26,16 +26,16 @@ export default function Nav() {
 
 
 <Link href="/" className="brand" onClick={() => setOpen(false)}>
-  <div className="brandLogo">
-    <Image
-      src="/images/coastonia-logo.png"
-      alt="Coastonia Technology Services"
-      width={260}
-      height={80}
-      priority
-      style={{ height: "56px", width: "auto" }}   // ✅ forces visible size
-    />
-  </div>
+<div className="brandLogo">
+  <Image
+    src="/images/coastonia-logo.png"
+    alt="Coastonia Technology Services"
+    fill
+    priority
+    style={{ objectFit: "contain" }}
+  />
+</div>
+
   <div className="brandText">
     <strong>Coastonia Technology Services</strong>
     <span>Enterprise Billing • Cloud Platforms • DevOps</span>
