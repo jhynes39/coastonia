@@ -29,13 +29,11 @@ export default function Nav() {
   <Image
     src="/images/coastonia-logo.png"
     alt="Coastonia Technology Services"
-    fill
+     width={300}
+        height={200}
     priority
-    style={{ objectFit: "contain" }}
   />
 
-    <strong>Coastonia Technology Services</strong>
-    <span>Enterprise Billing • Cloud Platforms • DevOps</span>
 </Link>
 
 
