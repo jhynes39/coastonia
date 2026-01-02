@@ -51,7 +51,7 @@ export default function Nav() {
 <nav className="navLinks navLinksDesktop">
   <Link href="/">Home</Link>
   <Link href="/services">Services</Link>
-  <Link href="/cloud">Cloud</Link>
+  <Link href="/about">About</Link>
   <Link href="/current-engagement">Engagement</Link>
   <Link href="/#clients">Clients</Link>
   <Link href="/resources">Resources</Link>
@@ -76,7 +76,7 @@ export default function Nav() {
           <nav className="mobileMenu" aria-label="Mobile">
             <Link href="/" onClick={() => setOpen(false)}>Home</Link>
             <Link href="/services" onClick={() => setOpen(false)}>Services</Link>
-            <Link href="/cloud" onClick={() => setOpen(false)}>Cloud</Link>
+            <Link href="/about" onClick={() => setOpen(false)}>About</Link>
             <Link href="/current-engagement" onClick={() => setOpen(false)}>Current Engagement</Link>
             <Link href="/#clients" onClick={() => setOpen(false)}>Clients</Link>
             <Link href="/resources" onClick={() => setOpen(false)}>Resources</Link>
