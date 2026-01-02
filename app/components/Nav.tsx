@@ -9,7 +9,7 @@ export default function Nav() {
 
   return (
     <header className="siteHeader">
-    <div className="navInner">
+    <div className="headerInner">
         {/* Logo */}
         <Link href="/" className="brand" onClick={() => setOpen(false)}>
           <div className="brandLogo">
