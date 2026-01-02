@@ -9,6 +9,7 @@ export default function Nav() {
 
   return (
     <header className="siteHeader">
+    <div className="navInner">
         {/* Logo */}
         <Link href="/" className="brand" onClick={() => setOpen(false)}>
           <div className="brandLogo">
@@ -39,6 +40,7 @@ export default function Nav() {
         >
           ☰
         </button>
+</div>
 
       {/* Mobile menu */}
       {open && (
