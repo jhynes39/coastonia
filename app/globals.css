@@ -388,7 +388,7 @@ small { color: var(--muted); }
 
 .navInner {
   display: grid;
-  grid-template-columns: auto 1fr auto;
+  grid-template-columns: auto auto;
   align-items: center;
   padding: 16px 0;
 }

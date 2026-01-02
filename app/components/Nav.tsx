@@ -24,7 +24,6 @@ export default function Nav() {
 
 
 
-
 <Link href="/" className="brand" onClick={() => setOpen(false)}>
   <Image
     src="/images/coastonia-logo.png"
@@ -35,8 +34,6 @@ export default function Nav() {
   />
 
 </Link>
-
-
 
 
 
