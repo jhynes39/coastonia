@@ -1,23 +1,10 @@
 .brandLogo {
   position: relative;
-  height: 72px;        /* 🔥 MAKE IT BIG */
-  width: 260px;        /* controls horizontal presence */
-  display: flex;
-  align-items: center;
-}
-
-.brandLogo img {
-  width: 100% !important;
-  height: 100% !important;
-}
-
-
-
-.brandLogo img {
+  height: 44px;              /* ✅ logo height */
+  width: 200px;              /* ✅ logo width */
   display: block;
-  height: 56px;
-  width: auto !important;
 }
+
 
 .footerLogo {
   position: relative;
@@ -387,10 +374,12 @@ small { color: var(--muted); }
 
 
 .navInner {
-  display: grid;
-  grid-template-columns: auto 1fr auto;
+	height: 72px;              /* ✅ controls header height */
+  padding: 0;
+  display: flex;             /* easier than grid for this layout */
   align-items: center;
-  padding: 8px 0;
+  justify-content: space-between;
+  gap: 16px;
 }
 
 .brand {
