@@ -113,7 +113,7 @@
 
 .navLinksDesktop a {
 font-family: var(--font-nunito), ui-sans-serif, system-ui, -apple-system;
-  font-weight: 800;
+  font-weight: 900;
   letter-spacing: 0.02em;
 }
 
@@ -433,12 +433,12 @@ small { color: var(--muted); }
 
 .navLinks {
   display: flex;
-  gap: 12px;
+  gap: 14px;
   flex-wrap: wrap;
   justify-content: flex-end;
 }
 .navLinks a {
-  font-size: 15px;
+  font-size: 17px;
   padding: 8px 10px;
   border-radius: 999px;
   border: 1px solid transparent;
