@@ -18,7 +18,7 @@ export default function HomePage() {
       <HeroBackdrop />
   <div style={{ position: "relative" }}>
     {/* existing hero content stays the same */}
-        <h1>Enterprise Billing, Cloud Platform & DevOps Consulting</h1>
+        <h1>Enterprise Billing & DevOps Consulting</h1>
 	 <div className="introGrid">
     {/* Text */}
         <div className="introText">
@@ -26,7 +26,6 @@ export default function HomePage() {
 
 
 <h2>DevOps & Release Engineering Services</h2>
-
 <p>
 Coastonia Technology Services provides secure, reliable, and repeatable DevOps solutions that enable organizations to deploy and operate cloud-based applications with confidence.</p>
 

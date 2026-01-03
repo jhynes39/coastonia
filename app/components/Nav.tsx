@@ -12,13 +12,14 @@ export default function Nav() {
     <div className="headerInner">
         {/* Logo */}
         <Link href="/" className="brand" onClick={() => setOpen(false)}>
-          <div className="brandLogo">
             <Image
               src="/images/coastonia-logo.png"
               alt="Coastonia Technology Services"
+	       width={520}
+        	height={290}
+		className="brandLogoImg"
               priority
             />
-          </div>
         </Link>
 
         {/* Desktop nav */}
@@ -28,6 +29,7 @@ export default function Nav() {
           <Link href="/about">About</Link>
           <Link href="/resources">Resources</Link>
           <Link href="/contact">Contact</Link>
+          <Link href="/careers">Careers</Link>
         </nav>
 
         {/* Mobile toggle */}
@@ -48,6 +50,7 @@ export default function Nav() {
           <Link href="/about" onClick={() => setOpen(false)}>About</Link>
           <Link href="/resources" onClick={() => setOpen(false)}>Resources</Link>
           <Link href="/contact" onClick={() => setOpen(false)}>Contact</Link>
+          <Link href="/careers" onClick={() => setOpen(false)}>Careers</Link>
         </nav>
       )}
     </header>
